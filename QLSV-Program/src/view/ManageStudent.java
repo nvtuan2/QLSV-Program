@@ -28,7 +28,7 @@ public class ManageStudent {
          * @param args
          */
         public static void main(String[] args) {
-             
+             	System.out.println("hiep");
                 CourseBLL courseBLL = new CourseBLL();
                 System.out.println(" List Course");
                 List<Course> courses =  courseBLL.getAll();
